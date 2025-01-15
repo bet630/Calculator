@@ -1,0 +1,25 @@
+.calculator{
+   width: 250px; 
+   background-color: rgba(128, 128, 128, 0.875);
+   border-radius: 10px;
+   padding:20px;
+   display: flex;
+   flex-wrap: wrap;
+   box-shadow: inset 5px 5px 12px #ffffff,
+                    5px 5px 12px   rgba(0, 0, 0, 0.845);
+
+}
+#display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+
+
+}
+.btun{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+
+}

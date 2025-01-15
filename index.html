@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/calculator/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="display" />
+        <div class="buttons">
+            <button onclick="clearDisplay()"class="btun">C</button>
+            <div class="button-wrap">
+                <button onclick="displayValue(7)" class="btun">7</button>
+                <button onclick="displayValue(8)" class="btun">8</button>
+                <button onclick="displayValue(9)" class="btun">9</button>
+                <button onclick="displayValue('*')" class="btun">*</button>
+            
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(4)" class="btun">4</button>
+                <button onclick="displayValue(5)" class="btun">5</button>
+                <button onclick="displayValue(6)" class="btun">6</button>
+                <button onclick="displayValue('/')" class="btun">/</button>
+            
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(1)" class="btun">1</button>
+                <button onclick="displayValue(2)" class="btun">2</button>
+                <button onclick="displayValue(3)" class="btun">3</button>
+                <button onclick="displayValue('-')" class="btun">-</button>
+            
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(0)" class="btun">0</button>
+                <button onclick="displayValue('.')" class="btun">.</button>
+                <button onclick="displayValue('+')" class="btun">+</button>
+                <button onclick="calculate('=')" class="btun">=</button>
+            
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="/calculator/js/calculator-script.js"></script>
+</html>
